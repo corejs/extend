@@ -1,0 +1,3 @@
+# extend
+
+Prototypal inheritance abstraction

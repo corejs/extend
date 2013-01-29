@@ -1,0 +1,15 @@
+{
+  "name": "extend",
+  "repo": "pfraces/extend",
+  "description": "prototypal inheritance abstraction",
+  "version": "0.1.0",
+  "dependencies": {},
+  "scripts": ["index.js"],
+  "keywords": [
+    "prototypal",
+    "inheritance",
+    "class"
+    "oop"
+  ],
+  "license": "MIT"
+}
