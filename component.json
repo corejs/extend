@@ -1,8 +1,8 @@
 {
   "name": "extend",
-  "repo": "pfraces/extend",
+  "repo": "corejs/extend",
   "description": "prototypal inheritance abstraction",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {},
   "scripts": ["index.js"],
   "keywords": [
