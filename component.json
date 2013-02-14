@@ -2,7 +2,7 @@
   "name": "extend",
   "repo": "corejs/extend",
   "description": "prototypal inheritance abstraction",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "dependencies": {},
   "scripts": ["index.js"],
   "keywords": [
