@@ -1,8 +1,6 @@
 var dictionary = require('dictionary');
 
-module.exports = extend;
-
-var extend = function (obj, mixins) {
+var extend = module.exports = function (obj, mixins) {
   var Constructor = function () {};
   Constructor.prototype = obj;
   mixins.forEach(function (mixin) {
