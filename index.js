@@ -14,5 +14,6 @@ var extend = module.exports = function () {
       Constructor.prototype[key] = value;
     });
   };
+
   return new Constructor();
 };
