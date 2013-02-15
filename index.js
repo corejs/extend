@@ -1,12 +1,18 @@
-var dictionary = require('dictionary');
+var arrayize = require('arrayize'),
+    dictionary = require('dictionary');
 
-var extend = module.exports = function (obj, mixins) {
-  var Constructor = function () {};
-  Constructor.prototype = obj;
-  mixins.forEach(function (mixin) {
+var extend = module.exports = function () {
+  var args = arrayize(arguments),
+      parent = args.shift() || {},
+      mixin,
+      Constructor = function () {};
+
+  Constructor.prototype = parent;
+
+  while (mixin = args.shift()) {
     dictionary(mixin).each(function (value, key) {
       Constructor.prototype[key] = value;
     });
-  });
+  };
   return new Constructor();
 };
